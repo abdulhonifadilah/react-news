@@ -1,0 +1,61 @@
+.loading, .data-kosong {
+  font-size: 21px;
+}
+
+.data-kosong {
+  color: salmon;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 250px;
+  margin: 10px 3px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+}
+
+.card .heading {
+  padding: 0 5px;
+}
+
+.card .heading h3 {
+  margin-bottom: 0px;
+}
+
+.card .heading p {
+  padding: 0;
+  margin: 0;
+}
+
+.card .description {
+  padding: 0 5px;
+  height: 100px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.card .btn-link {
+  text-align: center;
+  margin: 0 10px;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: dodgerblue;
+  text-decoration: none;
+  color: #fff;
+}
+/*# sourceMappingURL=card.css.map */
